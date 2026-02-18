@@ -1,50 +1,71 @@
+```{=html}
 <p align="center">
+```
+███████╗███████╗███╗ ██╗███████╗██╗████████╗██╗ ██╔════╝██╔════╝████╗
+██║██╔════╝██║╚══██╔══╝██║ ███████╗█████╗ ██╔██╗ ██║███████╗██║ ██║ ██║
+╚════██║██╔══╝ ██║╚██╗██║╚════██║██║ ██║ ██║ ███████║███████╗██║
+╚████║███████║██║ ██║ ██║ ╚══════╝╚══════╝╚═╝ ╚═══╝╚══════╝╚═╝ ╚═╝ ╚═╝
 
-███████╗███████╗███╗   ██╗███████╗██╗████████╗██╗
-██╔════╝██╔════╝████╗  ██║██╔════╝██║╚══██╔══╝██║
-███████╗█████╗  ██╔██╗ ██║███████╗██║   ██║   ██║
-╚════██║██╔══╝  ██║╚██╗██║╚════██║██║   ██║   ██║
-███████║███████╗██║ ╚████║███████║██║   ██║   ██║
-╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝   ╚═╝   ╚═╝
-
-🔍 Sensitive Data & Secret Discovery Engine
-</p>
-
+🔍 Sensitive Data & Secret Discovery Engine\
 🚀 sensiti.sh
 
-Advanced Sensitive Data & Secret Exposure Detection Tool
+Advanced Sensitive Data & Secret Exposure Detection Tool\
 Built for bug bounty hunters, red teamers, and recon automation.
 
-🔐 Secrets
-🗂 Sensitive files
-☁ Cloud credentials
-🗄 Database strings
-🛠 DevOps tokens
-🔄 Open redirects
-🧪 Debug endpoints
-🧾 JWT tokens
+```{=html}
+</p>
+```
 
-⚡ Usage
+------------------------------------------------------------------------
+
+## 🎯 What It Does
+
+`sensiti.sh` scans URL datasets to detect:
+
+🔐 Secrets • 🗂 Sensitive files • ☁ Cloud credentials\
+🗄 Database strings • 🛠 DevOps tokens\
+🔄 Open redirects • 🧪 Debug endpoints • 🧾 JWT tokens
+
+High-signal. Low-noise.
+
+------------------------------------------------------------------------
+
+## ⚡ Usage
+
+``` bash
 bash sensiti.sh -f urls.txt
-
+```
 
 Specific module:
+
+``` bash
 bash sensiti.sh -f urls.txt -c cloud
+```
 
 Silent mode:
+
+``` bash
 bash sensiti.sh -f urls.txt -s
+```
 
-📁 Output
-sensitive_YYYYMMDD/
-├── all_hits.txt
-└── SUMMARY.txt
+------------------------------------------------------------------------
 
+## 📁 Output
+
+    sensitive_YYYYMMDD/
+    ├── all_hits.txt
+    └── SUMMARY.txt
+
+------------------------------------------------------------------------
+
+```{=html}
 <p align="center">
+```
+![Bash](https://img.shields.io/badge/Bash-Script-black?style=flat-square&logo=gnu-bash)
+![Status](https://img.shields.io/badge/Status-Stable-success?style=flat-square)
+![Purpose](https://img.shields.io/badge/Purpose-Offensive%20Security-red?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-![Bash](https://img.shields.io/badge/Bash-Script-black?style=for-the-badge&logo=gnu-bash)
-![Status](https://img.shields.io/badge/Status-Stable-success?style=for-the-badge)
-![Security](https://img.shields.io/badge/Purpose-Offensive%20Security-red?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Recon](https://img.shields.io/badge/Category-Recon%20Tool-purple?style=for-the-badge)
-
+```{=html}
 </p>
+```
