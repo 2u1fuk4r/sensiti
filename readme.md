@@ -28,12 +28,6 @@ Silent mode:
 
 bash sensiti.sh -f urls.txt -s
 
-📁 Output
-
-sensitive_YYYYMMDD/
-all_hits.txt
-SUMMARY.txt
-
 
 <p align="center">
 
