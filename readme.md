@@ -1,3 +1,4 @@
+<p align="center">
 
 ███████╗███████╗███╗   ██╗███████╗██╗████████╗██╗
 ██╔════╝██╔════╝████╗  ██║██╔════╝██║╚══██╔══╝██║
@@ -5,6 +6,38 @@
 ╚════██║██╔══╝  ██║╚██╗██║╚════██║██║   ██║   ██║
 ███████║███████╗██║ ╚████║███████║██║   ██║   ██║
 ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝   ╚═╝   ╚═╝
+
+🔍 Sensitive Data & Secret Discovery Engine
+</p>
+
+🚀 sensiti.sh
+
+Advanced Sensitive Data & Secret Exposure Detection Tool
+Built for bug bounty hunters, red teamers, and recon automation.
+
+🔐 Secrets
+🗂 Sensitive files
+☁ Cloud credentials
+🗄 Database strings
+🛠 DevOps tokens
+🔄 Open redirects
+🧪 Debug endpoints
+🧾 JWT tokens
+
+⚡ Usage
+bash sensiti.sh -f urls.txt
+
+
+Specific module:
+bash sensiti.sh -f urls.txt -c cloud
+
+Silent mode:
+bash sensiti.sh -f urls.txt -s
+
+📁 Output
+sensitive_YYYYMMDD/
+├── all_hits.txt
+└── SUMMARY.txt
 
 <p align="center">
 
