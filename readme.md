@@ -16,16 +16,20 @@ Built for bug bounty hunters, red teamers, and recon automation.
 🧾 JWT tokens
 
 ⚡ Usage
+
 bash sensiti.sh -f urls.txt
 
 
 Specific module:
+
 bash sensiti.sh -f urls.txt -c cloud
 
 Silent mode:
+
 bash sensiti.sh -f urls.txt -s
 
 📁 Output
+
 sensitive_YYYYMMDD/
 all_hits.txt
 SUMMARY.txt
